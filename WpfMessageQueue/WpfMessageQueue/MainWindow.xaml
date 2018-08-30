@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfMessageQueue.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMessageQueue"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Receber último conteúdo" HorizontalAlignment="Left" Margin="221,155,0,0" VerticalAlignment="Top" Width="144" Click="Button_Click"/>
+        <TextBox Name="texboxConteudo" HorizontalAlignment="Left" Height="140" Margin="38,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="327"/>
+        <Label Content="Fila:" HorizontalAlignment="Left" Margin="38,152,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="textBoxNomeFila" HorizontalAlignment="Left" Height="23" Margin="73,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Saída" HorizontalAlignment="Left" Margin="38,211,0,0" VerticalAlignment="Top"/>
+        <Button Content="Receber todos títulos" HorizontalAlignment="Left" Margin="221,188,0,0" VerticalAlignment="Top" Width="144" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
